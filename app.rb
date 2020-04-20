@@ -7,9 +7,9 @@ get '/newteam' do
 end 
 
 post '/team' do
-  @tname = params[:name]
+  @name = params[:name]
   @coach = params[:coach]
-  @point_guard = params[:pg]
+  @pg = params[:pg]
   @shooting_guard = params[:shooting_guard]
   @small_forward = params[:small_forward]
   @power_forward = params[:power_forward]
